@@ -1,0 +1,19 @@
+正在使用 cuda 运行进阶实验
+Using downloaded and verified file: ./data/cifar-10-python.tar.gz
+Extracting ./data/cifar-10-python.tar.gz to ./data
+Files already downloaded and verified
+
+--- [进阶任务 1] 网络结构对比 (MNIST) ---
+基础网络 测试准确率: 98.63%
+进阶网络 测试准确率: 99.26%
+
+--- [进阶任务 2] 优化器对比记录表 ---
+Optimizer       Learning Rate   Test Accuracy
+SGD             0.01            98.81%
+Adam            0.001           98.63%
+
+--- [进阶任务 3] MNIST 与 CIFAR-10 比较记录表 ---
+正在训练 CIFAR-10 模型 (耗时会稍长)...
+数据集  图像类型        类别数  测试准确率      难度
+MNIST   灰度手写数字    10      99.26%          低
+CIFAR-10        彩色自然图像    10      74.33%          高

@@ -1,0 +1,9 @@
+当前使用的计算设备: cuda
+
+Epoch [1/5] | Train Loss: 0.2179, Train Acc: 93.54% | Val Loss: 0.0771, Val Acc: 97.72%
+Epoch [2/5] | Train Loss: 0.0577, Train Acc: 98.19% | Val Loss: 0.0553, Val Acc: 98.38%
+Epoch [3/5] | Train Loss: 0.0390, Train Acc: 98.85% | Val Loss: 0.0587, Val Acc: 98.31%
+Epoch [4/5] | Train Loss: 0.0295, Train Acc: 99.04% | Val Loss: 0.0483, Val Acc: 98.58%
+Epoch [5/5] | Train Loss: 0.0244, Train Acc: 99.22% | Val Loss: 0.0498, Val Acc: 98.55%
+
+测试集最终表现 -> Loss: 0.0428, Accuracy: 98.70%
