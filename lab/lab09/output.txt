@@ -1,0 +1,23 @@
+Using device: cuda
+--- 任务 2：优化器对比 (SGD, Momentum, Adam) ---
+
+Training with SGD...
+[SGD Final Metrics] Train Loss: 0.0925 | Val Loss: 0.0778 | Train Acc: 97.25% | Val Acc: 97.60% | Test Acc: 97.60%
+
+Training with SGD+Momentum...
+[SGD+Momentum Final Metrics] Train Loss: 0.0233 | Val Loss: 0.0258 | Train Acc: 99.28% | Val Acc: 99.07% | Test Acc: 99.07%
+
+Training with Adam...
+[Adam Final Metrics] Train Loss: 0.0655 | Val Loss: 0.0674 | Train Acc: 98.02% | Val Acc: 97.90% | Test Acc: 97.90%
+
+--- 任务 3：学习率对比 (Adam: 0.1, 0.01, 0.001) ---
+Training Adam with lr=0.1...
+LR=0.1 Test Accuracy: 10.28%
+Training Adam with lr=0.01...
+LR=0.01 Test Accuracy: 98.14%
+Training Adam with lr=0.001...
+LR=0.001 Test Accuracy: 98.99%
+>>> 正在生成学习率对比曲线图片 (Loss & Accuracy)...
+--- 任务 4：生成卷积核可视化图片 ---
+--- 任务 5：生成 Feature map 图片 ---
+--- 任务 6 & 7：生成错误分类图片与混淆矩阵 ---
